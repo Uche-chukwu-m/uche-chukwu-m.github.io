@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from 'framer-motion';
-import profilePic from '../assets/profile-pic.jpg'
+import profilePic from '../assets/profile-pic-dark.jpg'
 
 const Hero = ({ alias, tagline, altText}) => {
     return (
