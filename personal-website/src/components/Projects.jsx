@@ -1,8 +1,10 @@
 import React from "react";
+import newsSentimentTrader from '../assets/news-sentiment-trader.png'
+import chessPygame from '../assets/chess-pygame.png'
 
 const myProjects = [
-    { id: 1, title: "News Sentiment Trader", description: "This tracks the stock markets and analyzes sentiments of the day before of some stocks", image: '/src/assets/news-sentiment-trader.png', link: 'https://github.com/Uche-chukwu-m/news-sentiment-trader' },
-    { id: 2, title: "Chess with Pygame", description: "This chess game was one of my first exposures to coding. You may have observed that it looks like it was created by a blue-eyed teen. I was the teen then.", image: '/src/assets/chess-pygame.png', link: 'https://github.com/Uche-chukwu-m/chess_project' }
+    { id: 1, title: "News Sentiment Trader", description: "This tracks the stock markets and analyzes sentiments of the day before of some stocks", image: newsSentimentTrader, link: 'https://github.com/Uche-chukwu-m/news-sentiment-trader' },
+    { id: 2, title: "Chess with Pygame", description: "This chess game was one of my first exposures to coding. You may have observed that it looks like it was created by a blue-eyed teen. I was the teen then.", image: chessPygame, link: 'https://github.com/Uche-chukwu-m/chess_project' }
 ]
 
 const Projects = () => {

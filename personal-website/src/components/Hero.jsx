@@ -1,7 +1,8 @@
 import React from "react";
 import { motion } from 'framer-motion';
+import profilePic from '../assets/profile-pic.jpg'
 
-const Hero = ({ alias, tagline, imageUrl, altText}) => {
+const Hero = ({ alias, tagline, altText}) => {
     return (
         <motion.div 
             initial={{ opacity: 0, y:-50 }}
@@ -10,7 +11,7 @@ const Hero = ({ alias, tagline, imageUrl, altText}) => {
 
             <section id="hero" className="items-center text-5xl ">
                 <div className="hero-content">
-                    <img className="profile-pic rounded-e-full w-128 h-128" src={imageUrl} alt={altText} />
+                    <img className="profile-pic rounded-e-full w-128 h-128" src={profilePic} alt={altText} />
                     <h1 className="hero-name font-bold">{alias}</h1>
                     <p className="hero-tagline"> {tagline} </p>
                 </div>

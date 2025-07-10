@@ -12,7 +12,6 @@ function App(){
         <Hero 
           alias="Uchechukwu Alih"
           tagline="A super quick learner, try me"
-          imageUrl="/src/assets/profile-pic-dark.jpg"
           altText="this image of me was taken by my senior friend in my freshman year"
         />
         <Projects/>
