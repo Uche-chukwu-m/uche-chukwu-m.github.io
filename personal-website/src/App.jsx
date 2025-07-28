@@ -1,4 +1,4 @@
-import { BrowserRouter as Router } from 'react-router-dom';
+// import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import Projects from "./components/Projects"
@@ -6,19 +6,26 @@ import Contact from './components/Contact';
 
 function App(){
   return (
-    <Router>
-      <div className="">
-        <Navbar/>
-        <Hero 
-          alias="Uchechukwu Alih"
-          tagline="A super quick learner, try me"
-          altText="this image of me was taken by my senior friend in my freshman year"
-        />
-        <Projects/>
-        <Contact/>
-        {/* Other sections will go here */}
-      </div>
-    </Router>
+    <div className="bg-slate-900">
+      <Navbar/>
+      <main>
+        <div id='home'>
+          <Hero 
+            alias="Uchechukwu Alih"
+            tagline="A super quick learner, try me"
+            altText="this image of me was taken by my senior friend in my freshman year"
+          />
+        </div>
+        <div id="projects">
+          <Projects/>
+        </div>
+        <div id="contact">
+          <Contact/>
+        </div>
+      {/* Other sections will go here */}
+      </main>
+    </div>
+    
   );
 };
 
